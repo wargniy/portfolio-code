@@ -1,0 +1,195 @@
+{
+  "Header": {
+    "title": {
+      "firstname": "Yoann",
+      "lastname": "Wargnier",
+      "logo": "/assets/images/icons/name.svg"
+    },
+    "paragraph": "Web developer passionate about video games."
+  },
+  "Section": {
+    "vianova": {
+      "title": {
+        "title": "Vianova",
+        "subtitle": "mobility data platform cities"
+      },
+      "context": "<p>The data platform Cityscope from Vianova is intended for cities and governments who want to <strong>understand micro-mobility</strong> (connected devices such as shared scooters, mopeds, and so on) <strong>in public space</strong>. Vianova provides a neutral enabler of mobility management for connected vehicles. The platform communicates between operators&rsquo; api and Vianova&rsquo;s api, same with cities&rsquo; api. My responsibilities were to <strong>implement the dashboard</strong> of the Cityscope platform.</p>",
+      "features": {
+        "title": "This tool includes the following features:",
+        "feature": [
+          "Development of the cityscope platform",
+          "Creation of components and library",
+          "Development of Mapbox layers",
+          "Deployment with Gitlab, AWS",
+          "Fix bugs and improve the code for better performance"
+        ],
+        "tag": ["React", "Typescript", "Redux", "Mapbox", "Storybook", "Gitlab"]
+      },
+      "carousel": [
+        {
+          "url": "/assets/images/Vianova/Vianova-position.png",
+          "alt": "Position screen"
+        },
+        {
+          "url": "/assets/images/Vianova/Vianova-cluster.png",
+          "alt": "Cluster layer screen"
+        },
+        {
+          "url": "/assets/images/Vianova/Vianova-trip.png",
+          "alt": "Trip screen"
+        }
+      ]
+    },
+    "bam": {
+      "title": {
+        "title": "BAM (Because Architectures Matters)",
+        "subtitle": "renovation and construction support service"
+      },
+      "context": "<p>BAM Archi is an online service dedicated to finding architects and contractors for renovation projects. Their goal: to democratize architecture among the general public in France and above all to reduce friction between individuals and architects by facilitating their exchanges. My responsibilities were to implement all admin interfaces for an intern tool.</p>",
+      "features": {
+        "title": "This tool includes the following features:",
+        "feature": [
+          "Get the visibility on the whole activity",
+          "Give permission according to the hierarchy of employees",
+          "Implement a CRM system in it",
+          "End to end testing"
+        ],
+        "tag": [
+          "Vuejs",
+          "Nightwatch.js",
+          "MongoDB",
+          "Javascript",
+          "Github",
+          "HTML",
+          "CSS"
+        ]
+      },
+      "carousel": [
+        {
+          "url": "/assets/images/Bam/bam1.png",
+          "alt": "Home screen"
+        },
+        {
+          "url": "/assets/images/Bam/bam3.png",
+          "alt": "Client screen"
+        },
+        {
+          "url": "/assets/images/Bam/bam4.png",
+          "alt": "Statistic screen"
+        }
+      ]
+    },
+    "thelastone": {
+      "title": {
+        "title": "the last one",
+        "subtitle": "2d battle royal video game project"
+      },
+      "context": "<p>The Last One is a 2D battle royal game project created with <strong>Unity</strong>. This project has been released as an end of studies project. I was part of eight members teams where I was in charge of <strong>project management</strong>, <strong>game design,</strong> and <strong>game development</strong>.</p>",
+      "card": [
+        {
+          "url": "/assets/images/Thelastone/game1.gif",
+          "title": "top down view",
+          "description": "The Last One distinguishes itself from the common battle royal games by being in top-down view. "
+        },
+        {
+          "url": "/assets/images/Thelastone/game3.gif",
+          "title": "multiple powers",
+          "description": "The player chooses three powers among a list before starting the game: invisibility, clone, dash, and more."
+        },
+        {
+          "url": "/assets/images/Thelastone/game5.gif",
+          "title": "practical environment",
+          "description": "The environment is also very useful: you can hide in the bushes, take underground tunnels or surprise the enemy in a building."
+        }
+      ],
+      "tag": ["Unity", "C#", "Project_Management", "Scrum", "Agile"]
+    }
+  },
+  "Skills": {
+    "language": [
+      {
+        "title": "HTML",
+        "bgcolor": "#313131",
+        "color": "#00febe",
+        "completed": "97"
+      },
+      {
+        "title": "CSS",
+        "bgcolor": "#313131",
+        "color": "#00febe",
+        "completed": "90"
+      },
+      {
+        "title": "Typescript",
+        "bgcolor": "#313131",
+        "color": "#00febe",
+        "completed": "80"
+      }
+    ],
+    "framework": [
+      {
+        "title": "React",
+        "bgcolor": "#313131",
+        "color": "#00a3ff",
+        "completed": "85"
+      },
+      {
+        "title": "Tailwind CSS",
+        "bgcolor": "#313131",
+        "color": "#00a3ff",
+        "completed": "80"
+      },
+      {
+        "title": "Bootstrap",
+        "bgcolor": "#313131",
+        "color": "#00a3ff",
+        "completed": "70"
+      },
+      {
+        "title": "Vue",
+        "bgcolor": "#313131",
+        "color": "#00a3ff",
+        "completed": "60"
+      }
+    ],
+    "back": [
+      {
+        "title": "Node",
+        "bgcolor": "#313131",
+        "color": "#5f35e0",
+        "completed": "65"
+      },
+      {
+        "title": "MongoDB",
+        "bgcolor": "#313131",
+        "color": "#5f35e0",
+        "completed": "60"
+      }
+    ],
+    "other": [
+      {
+        "title": "Agile / Scrum",
+        "bgcolor": "#313131",
+        "color": "#FFB800",
+        "completed": "95"
+      },
+      {
+        "title": "Git",
+        "bgcolor": "#313131",
+        "color": "#FFB800",
+        "completed": "90"
+      },
+      {
+        "title": "Figma",
+        "bgcolor": "#313131",
+        "color": "#FFB800",
+        "completed": "70"
+      }
+    ]
+  },
+  "Contact": {
+    "mail": "y.wargnier@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/yoann-wargnier",
+    "github": "https://github.com/wargniy"
+  }
+}
