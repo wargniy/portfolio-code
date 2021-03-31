@@ -580,9 +580,6 @@ strong {
 /* responsive tablette */
 
 @media (min-width: 768px) {
-  .cursor {
-    display: none;
-  }
   svg {
     width: 100%;
     height: auto;
