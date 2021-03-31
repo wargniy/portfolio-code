@@ -181,7 +181,7 @@ strong {
   vertical-align: baseline;
   border-radius: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 /* !bootstrap override*/
 
@@ -305,6 +305,29 @@ strong {
   margin-bottom: 20vh;
 }
 
+#emoji {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+#svg-container {
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.08),
+    4px 4px 4px rgba(0, 0, 0, 0.56), 0 0 0 rgba(255, 255, 255, 0.08) inset,
+    0 0 0 rgba(0, 0, 0, 0.56) inset;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: transform 0.8s;
+}
+
+#svg-container:hover {
+  transform: translate(30%, 0);
+}
+
+#svg-container:hover + #emoji {
+  opacity: 1;
+  transition: 0.3s 0.2s ease-in;
+}
 .links {
   font-size: 24px;
   line-height: 158%;
@@ -488,12 +511,26 @@ strong {
 /* Responsive mobile */
 
 @media (max-width: 575.98px) {
+
+  .header {
+    margin-top: -20vh;
+  }
   .cursor {
     display: none;
   }
   svg {
     width: 100%;
     height: auto;
+  }
+  #svg-container {
+    width: 130%;
+  }
+  #svg-container:hover {
+    transform: translate(20%, 0);
+  }
+  #emoji {
+    font-size: 25px !important;
+    top: 40% !important;
   }
   #id {
     display: none;
@@ -540,10 +577,80 @@ strong {
   }
 }
 
+/* responsive tablette */
+
+@media (min-width: 768px) {
+  .cursor {
+    display: none;
+  }
+  svg {
+    width: 100%;
+    height: auto;
+  }
+  #id {
+    display: none;
+  }
+
+  #svg-container {
+    width: max-content;
+  }
+  h1.font.name {
+    font-size: 85px;
+  }
+
+  h2.font.subtitle {
+    font-size: 40px;
+    width: max-content;
+  }
+
+  h2.font.project-title.bam {
+    font-size: 64px;
+    line-height: normal;
+  }
+
+  h2.font.project-title.vianova {
+    font-size: 64px;
+    line-height: normal;
+  }
+
+  h2.font.project-title.thelastone {
+    font-size: 64px;
+    line-height: normal;
+  }
+
+  h3.font.card-title.mx-auto {
+    text-align: center;
+  }
+
+  .navbar {
+    height: auto;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+
+  .box-contact {
+    margin: 10% 0;
+  }
+  .video-box {
+    width: auto;
+  }
+  .video-box-animation {
+    width: auto;
+  }
+  .mt-n4 {
+    margin-top: 1rem !important;
+  }
+  .text-justify-center.font.project-subtitle {
+    font-size: 17px;
+  }
+}
+
 /* logo animation */
 #logo path:nth-child(1) {
-  stroke-dasharray: 286px;
-  stroke-dashoffset: 286px;
+  stroke-dasharray: 287px;
+  stroke-dashoffset: 287px;
   animation: draw 0.5s ease forwards;
 }
 #logo path:nth-child(2) {
